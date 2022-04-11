@@ -63,7 +63,7 @@
                         ul.kisisel li{font-size: 12px; line-height: 24px}
                             ul.kisisel li label{width: 181px; display: inline-block; float:left; color: #010101; position: relative;}
                                 ul.kisisel li label:after{content: ":"; position: absolute; right: 0;}
-                            ul.kisisel li span{color: #666666; padding: 0 0 0 10px;} 
+                            ul.kisisel li span{color: #666666; padding: 0 0 0 10px;float:left;} 
                     #resim{padding: 14px 0 0 0;}
                     ul.egitim{padding: 12px 0 0 0;}
                         ul.egitim ul{width: 100%;}
