@@ -98,6 +98,7 @@
                 .sosyalAglar a:first-child{margin-left:0;}
                 .sosyalAglar a:hover{color: #cd1821;}
                     .sosyalAglar a i{ font-size:40px; }
+                    .sosyalAglar a img{ margin:-20px;}
     /* ================================================ */
     /* ! footer                                         */
     /* ================================================ */
