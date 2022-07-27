@@ -5,7 +5,16 @@ const urlElement=document.querySelector("#url");
 const cardBody=document.querySelectorAll(".card-body")[1];
 const clear=document.getElementById("clear-films");
 
-
+window.onload = function() {
+    if(Storage.getFilmsFromStorage()[0]==undefined){
+    const newFilm=new Film("The Gray Man","Joe Russo, Anthony Russo","https://www.diziler.com/static/img/content/22-07/24/the-gray-man-filmi-poster.jpeg");
+    const newFilm2=new Film("Leon","Luc Besson","https://postercim.net/wp-content/uploads/2018/10/leon-film-posteri.png");
+    UI.addFilmToUI(newFilm);
+    Storage.addFilmToStorage(newFilm);
+    UI.addFilmToUI(newFilm2);
+    Storage.addFilmToStorage(newFilm2);
+    }
+  }
 eventListeners();
 function eventListeners(){
     form.addEventListener("submit",addFilm);
